@@ -16,7 +16,7 @@ export default function Comment(props) {
    return (
       <div className='commit'>
         <div className='commitW'>
-             {data.length > 0 ? data.map((item, i) => <p className='commitP' key={i}>{item.content}</p>) : '로딩중'}
+             {data.length > 0 ? data.map((item, i) => <p className='commitP' key={i}>{item.content}</p>) : '댓글이 없음'}
          </div>
          <input
             className='input'
