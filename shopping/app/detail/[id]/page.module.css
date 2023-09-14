@@ -1,0 +1,15 @@
+.detail{padding: 100px 50px; }
+.h3{
+   text-align: center;
+   margin-bottom: 20px;
+}
+.detail-wrap{width: 50%;}
+.imgWrap{}
+.text{width: 50%;padding: 0 50px;}
+.h4{color: #333; margin-bottom:  10px; font-size: 18px;}
+.description{border-bottom: 1px solid #ddd; margin-bottom: 10px; font-size: 14px; padding-bottom: 5px;}
+.price{margin-bottom: 10px;}
+.card{margin-bottom: 10px;}
+.dilivery{margin-bottom: 10px;}
+.color{margin-bottom: 10px;}
+.size{margin-bottom: 10px;}
