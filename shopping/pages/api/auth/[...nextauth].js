@@ -4,13 +4,19 @@ import NextAuth from "next-auth";
 import GithubProvider from "next-auth/providers/github";
 import CredentialsProvider from "next-auth/providers/credentials";
 import bcrypt from "bcrypt";
-
+import NaverProvider from 'next-auth/providers/naver'
 export const authOptions = {
   providers: [
     GithubProvider({
       clientId: "8e52c10467fbdff43be2",
-      clientSecret: "7798eb1db8a7f3dc34bb62fce71744d24852bd29",
+      clientSecret: "7798eb1db8a7f3dc34bb62fce71744d24852bd29"
     }),
+
+    NaverProvider({
+      clientId: 'uLHlrmxp9tv5Sqjbw92Q',
+      clientSecret:'ObtCXZ4ziS'
+    }),
+    
     CredentialsProvider({
       //1. 로그인페이지 폼 자동생성해주는 코드
       name: "credentials",
